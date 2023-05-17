@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_blocks",
+  "info": {
+    "singularName": "business-block",
+    "pluralName": "business-blocks",
+    "displayName": "Business_Block"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Block_Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Main_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Url_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

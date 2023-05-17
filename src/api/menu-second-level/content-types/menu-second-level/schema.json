@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_second_levels",
+  "info": {
+    "singularName": "menu-second-level",
+    "pluralName": "menu-second-levels",
+    "displayName": "Menu Second Level",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Menu_Item_Label": {
+      "type": "string",
+      "required": true
+    },
+    "URL_Slug": {
+      "type": "string",
+      "required": true
+    },
+    "menu_first_level": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::menu-first-level.menu-first-level",
+      "inversedBy": "menu_second_levels"
+    }
+  }
+}

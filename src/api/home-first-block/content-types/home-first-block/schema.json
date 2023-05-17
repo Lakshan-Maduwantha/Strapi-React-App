@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_first_blocks",
+  "info": {
+    "singularName": "home-first-block",
+    "pluralName": "home-first-blocks",
+    "displayName": "Home_First_Block",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Main_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Bold_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
