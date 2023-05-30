@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_awesome_stuffs",
+  "info": {
+    "singularName": "about-awesome-stuff",
+    "pluralName": "about-awesome-stuffs",
+    "displayName": "About_Awesome_Stuff",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bold_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Visit_Sub_Block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-blocks.4-component-sub-block",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_footers",
+  "info": {
+    "singularName": "about-footer",
+    "pluralName": "about-footers",
+    "displayName": "About_Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Address": {
+      "type": "string",
+      "required": true
+    },
+    "Website": {
+      "type": "string",
+      "required": true
+    },
+    "Bold_Title_1": {
+      "type": "string",
+      "required": true
+    },
+    "Bold_Title_2": {
+      "type": "string",
+      "required": true
+    },
+    "Bold_Title_3": {
+      "type": "string",
+      "required": true
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-blocks.footer-links",
+      "required": true
+    },
+    "Bottom_Text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
