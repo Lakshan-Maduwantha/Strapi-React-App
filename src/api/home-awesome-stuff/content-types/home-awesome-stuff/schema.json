@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_awesome_stuffs",
+  "info": {
+    "singularName": "home-awesome-stuff",
+    "pluralName": "home-awesome-stuffs",
+    "displayName": "Home_Awesome_Stuff",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bold_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-blocks.4-component-sub-block",
+      "required": true
+    }
+  }
+}

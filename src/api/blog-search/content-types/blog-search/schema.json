@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_searches",
+  "info": {
+    "singularName": "blog-search",
+    "pluralName": "blog-searches",
+    "displayName": "Blog_Search"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Search_Field": {
+      "type": "string",
+      "required": true
+    },
+    "Search_Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Search_Button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

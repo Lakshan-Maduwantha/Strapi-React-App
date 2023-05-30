@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_have_projects",
+  "info": {
+    "singularName": "home-have-project",
+    "pluralName": "home-have-projects",
+    "displayName": "Home_Have_Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bold_Title": {
+      "type": "string",
+      "required": true
+    },
+    "d": {
+      "type": "string",
+      "required": true
+    },
+    "Contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.contact",
+      "required": true
+    }
+  }
+}

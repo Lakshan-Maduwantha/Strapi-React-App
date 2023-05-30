@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_pricing_plans",
+  "info": {
+    "singularName": "about-pricing-plan",
+    "pluralName": "about-pricing-plans",
+    "displayName": "About_Pricing_Plan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bold_Title": {
+      "type": "string",
+      "required": true
+    },
+    "Pricing_Plan": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-blocks.flat-sub-block",
+      "required": true
+    }
+  }
+}

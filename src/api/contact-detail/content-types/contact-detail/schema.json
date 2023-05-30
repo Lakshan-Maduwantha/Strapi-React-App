@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_details",
+  "info": {
+    "singularName": "contact-detail",
+    "pluralName": "contact-details",
+    "displayName": "Contact_Detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Address_Bold": {
+      "type": "string",
+      "required": true
+    },
+    "Address_Normal_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Address_Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Phone_Bold": {
+      "type": "string",
+      "required": true
+    },
+    "Phone_Normal": {
+      "type": "string",
+      "required": true
+    },
+    "Phone_Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Email_Bold": {
+      "type": "string",
+      "required": true
+    },
+    "Email_Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Email_Normal": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

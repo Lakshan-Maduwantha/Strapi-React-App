@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_recent_posts",
+  "info": {
+    "singularName": "blog-recent-post",
+    "pluralName": "blog-recent-posts",
+    "displayName": "Blog_recent_Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Bold_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Bold_Text_Link": {
+      "type": "string",
+      "required": true
+    },
+    "Posted_Date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

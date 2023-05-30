@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_navigations",
+  "info": {
+    "singularName": "blog-navigation",
+    "pluralName": "blog-navigations",
+    "displayName": "Blog_Navigation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Menu_Item_Label": {
+      "type": "string",
+      "required": true
+    },
+    "Url_Slug": {
+      "type": "string",
+      "required": true
+    },
+    "Main_Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Main_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.contact",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_instagram_feeds",
+  "info": {
+    "singularName": "blog-instagram-feed",
+    "pluralName": "blog-instagram-feeds",
+    "displayName": "Blog_Instagram_Feed"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Image_Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

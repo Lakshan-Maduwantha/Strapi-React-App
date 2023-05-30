@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_digital_product_blocks",
+  "info": {
+    "singularName": "home-digital-product-block",
+    "pluralName": "home-digital-product-blocks",
+    "displayName": "Home_Digital_Product_Block",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bold_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Main_Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    },
+    "We_Collect_Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.contact",
+      "required": true
+    }
+  }
+}

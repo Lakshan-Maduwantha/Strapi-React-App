@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_tag_clouds",
+  "info": {
+    "singularName": "blog-tag-cloud",
+    "pluralName": "blog-tag-clouds",
+    "displayName": "Blog_Tag_Cloud"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tag_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Name_Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
