@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_new_customers",
+  "info": {
+    "singularName": "home-new-customer",
+    "pluralName": "home-new-customers",
+    "displayName": "Home_New_Customer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bold_Title": {
+      "type": "string",
+      "required": true
+    },
+    "New_Customers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-blocks.flat-sub-block",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_navigations",
+  "info": {
+    "singularName": "service-navigation",
+    "pluralName": "service-navigations",
+    "displayName": "Service_Navigation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Menu_Item_Label": {
+      "type": "string",
+      "required": true
+    },
+    "Url_Slug": {
+      "type": "string",
+      "required": true
+    },
+    "Main_Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.contact",
+      "required": true
+    }
+  }
+}

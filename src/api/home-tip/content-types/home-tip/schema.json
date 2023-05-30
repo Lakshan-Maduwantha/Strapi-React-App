@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_tips",
+  "info": {
+    "singularName": "home-tip",
+    "pluralName": "home-tips",
+    "displayName": "Home_Tip",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bold_Title": {
+      "type": "string",
+      "required": true
+    },
+    "Tips_Sub_Block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-blocks.continue-reading-sub-block",
+      "required": true
+    }
+  }
+}

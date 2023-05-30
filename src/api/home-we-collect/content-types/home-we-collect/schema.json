@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_we_collects",
+  "info": {
+    "singularName": "home-we-collect",
+    "pluralName": "home-we-collects",
+    "displayName": "Home_We_Collect",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bold_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Main_Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    },
+    "We_Collect_Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.contact",
+      "required": true
+    }
+  }
+}

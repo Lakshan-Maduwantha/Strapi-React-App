@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_what_clients",
+  "info": {
+    "singularName": "home-what-client",
+    "pluralName": "home-what-clients",
+    "displayName": "Home_What_Client",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bold_Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    },
+    "Client_Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Client_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Client_Position": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
