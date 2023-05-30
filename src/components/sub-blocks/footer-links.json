@@ -1,12 +1,11 @@
 {
-  "collectionName": "components_button_contacts",
+  "collectionName": "components_sub_blocks_footer_links",
   "info": {
-    "displayName": "Contact",
-    "description": ""
+    "displayName": "Footer_Links"
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "Url_Name": {
       "type": "string",
       "required": true
     },

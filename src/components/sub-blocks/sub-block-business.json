@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sub_blocks_sub_block_businesses",
+  "info": {
+    "displayName": "5_Component_Sub_Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Bold_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Url_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

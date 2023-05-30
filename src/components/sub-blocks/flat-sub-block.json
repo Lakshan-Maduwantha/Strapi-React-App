@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sub_blocks_flat_sub_blocks",
+  "info": {
+    "displayName": "3_Component_Sub_Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Bold_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

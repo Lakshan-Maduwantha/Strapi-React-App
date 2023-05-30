@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sub_blocks_4_component_sub_blocks",
+  "info": {
+    "displayName": "4_Component_Sub_Block"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Url_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

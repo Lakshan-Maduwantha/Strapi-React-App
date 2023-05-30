@@ -1,12 +1,11 @@
 {
-  "collectionName": "components_button_contacts",
+  "collectionName": "components_button_sends",
   "info": {
-    "displayName": "Contact",
-    "description": ""
+    "displayName": "Send"
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "Url_Name": {
       "type": "string",
       "required": true
     },
